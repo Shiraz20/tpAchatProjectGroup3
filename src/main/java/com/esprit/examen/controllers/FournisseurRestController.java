@@ -24,7 +24,6 @@ public class FournisseurRestController {
 
 	@Autowired
 	IFournisseurService fournisseurService;
-
 	// http://localhost:8089/SpringMVC/fournisseur/retrieve-all-fournisseurs
 	@GetMapping("/retrieve-all-fournisseurs")
 	@ResponseBody
